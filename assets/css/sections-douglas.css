@@ -1,0 +1,195 @@
+/* ========================= SECTION 2 ========================= */
+
+#passaporte {
+    background: rgba(0, 0, 0, 0.7) url(../img/imagem-secao2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+    height: 45em;
+    width: 100%;
+}
+
+#passaporte>h1 {
+    color: var(--laranja);
+    font-size: 6em;
+}
+
+#passaporte>span {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 2%;
+
+}
+
+#passaporte>.botao-passaporte {
+    background-color: var(--laranja);
+    border-color: transparent;
+    -webkit-transition: all 150ms ease-in-out;
+    color: var(--branco);
+    align-items: center;
+    border-radius: 10px;
+    height: 5%;
+    width: 30%;
+}
+
+#passaporte>.botao-passaporte:hover {
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+}
+
+
+/* ========================= SECTION 4 ========================= */
+section#conta,
+section#conta-kids,
+/* Section 6 */
+section#cashback
+
+/* Section 7 */
+    {
+    background-color: var(--laranja);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+    width: 100%;
+    margin: 5% auto;
+    font-family: var(--font2);
+
+}
+
+#conta>#texto {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#texto>h1 {
+    font-size: 5em;
+    margin: 0 auto;
+}
+
+#texto>p {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+#conta>img#image1 {
+    height: 80%;
+    margin: 0 auto;
+}
+
+#conta>div#cartao-daniel,
+div#cartao-douglas,
+div#cartao-matheus,
+img#image2,
+img#image3,
+img#image4 {
+    display: none;
+}
+
+/* ========================= SECTION 6 ========================= */
+#conta-kids>img#celular-cartao {
+    height: 300px;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+#conta-kids>img#familia2 {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+
+#conta-kids>img#familia1 {
+    display: none;
+}
+
+.text-conta-kids {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-conta-kids>h3 {
+    color: var(--cinza-claro);
+    font-size: 3em;
+}
+
+.text-conta-kids>h4 {
+    font-size: 200%;
+    width: 70%;
+    margin: 0 0 5% 15%;
+}
+
+.text-conta-kids>p {
+    font-size: 100%;
+    width: 80%;
+    margin: 0 0 5% 15%;
+}
+
+.text-conta-kids>p>span {
+    font-weight: bold;
+}
+
+.text-conta-kids > a > img {
+    margin: 10%;
+    height: 60px;
+}
+
+
+/* ========================= SECTION 7 ========================= */
+
+section#cashback {
+    background-color: rgb(220, 220, 220);
+    max-width: 100%;
+
+}
+
+section#cashback>img {
+    height: 60%;
+    border-radius: 20px;
+    margin: 0 5% 0 0;
+}
+
+
+section#cashback>div>h1 {
+    color: gray;
+    font-size: 5em;
+    margin-left: 10%;
+}
+
+section#cashback>div>h2 {
+    font-size: 2em;
+    margin: 0 0 5% 15%;
+}
+
+section#cashback>div>p {
+    margin: 0 0 10% 15%;
+    font-size: 170%;
+    width: 80%;
+}
+
+section#cashback>div>p>span {
+    font-weight: bold;
+}
+
+section#cashback>div>a {
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 2% 10%;
+    text-decoration: none;
+    margin-left: 30%;
+    color: var(--laranja);
+    font-size: 120%;
+
+}
+
+section#cashback>div>a:hover {
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+}

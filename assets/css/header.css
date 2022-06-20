@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "icones";
+    src: url(../fonts/font/icones.ttf);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: var(--branco);
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 100vw;
+    font-family: var(--font1);
+    z-index: 999;
+}
+
+.cabecalho-principal {
+    display: flex;
+    align-items: center;
+}
+/* ------------------------- logo ------------------------- */
+.logo {
+    width: 5vw;
+    border-radius: 100%;
+}
+
+/* ------------------------- nav ------------------------- */
+nav {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: var(--preto);
+}
+nav > a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: bolder;
+}
+
+nav> a:hover{
+   text-decoration: underline var(--laranja);
+} 
+
+.icone-pesquisa {
+    width: 30px;
+}
+
+.icone-pesquisa:hover {
+    cursor: pointer;
+}
+/* ------------------------- botoes ------------------------- */
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-botao1 {
+    padding: 10px 12px 10px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.cabecalho-botao1:hover {
+    cursor: pointer;
+}
+
+.cabecalho-botao2 {
+    padding: 10px 12px 10px;
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-size: 1.3rem;
+    border-color: var(--laranja);
+    border-radius: 10px;
+}
+
+.cabecalho-botao2:hover {
+    cursor: pointer;
+}
+/* ========================= RESPONSIVIDADE ========================= */
+
+@media screen and (max-width:960px) {
+   header{
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 15px;
+    
+   }
+
+    .cabecalho-principal{
+        display: none;
+   }
+
+   .botoes{
+        display: none;
+   }
+
+   .logo{
+        display: none;
+   }
+   .cabecalho-mobile{
+        display: flex;
+        width: 100vw;
+        height: 15vh;
+   }
+   .logo-mobile{
+        font-size: 1.8rem;
+        font-family: var(--font3);
+        color: var(--preto);
+   }
+   .logo-botoes-mobile{
+        display: flex;
+        padding: 2rem;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+   }
+
+   .logo-botoes-mobile a{
+        text-decoration: none;
+   }
+   .cabecalho-botao1{
+        width: 25vh;
+        padding: 10px 9px 9px;
+        font-size: 0.9rem;
+   }
+
+   .cabecalho-botao2{
+        width: 25vh;
+        padding: 10px 9px 9px;
+        font-size: 0.9rem;
+   }
+
+
+   .menu-mobile{
+        display: flex; 
+        width: 100vw;
+        padding: 0px 0px 10px;
+        justify-content: center;
+        border-bottom: 1px solid rgba(221, 217, 221, 0.867);
+   }
+
+   .icone-mobile{
+        width: 50%;
+        margin-left: 1.0rem;
+   }
+
+   .icone-primeiro{
+     border-bottom: 2px solid var(--laranja);
+   }
+
+
+}
+
+@media screen and (min-width:959px){
+    .cabecalho-mobile{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+}

@@ -1,0 +1,14 @@
+/* ========================= CORES ========================= */
+/* Para usar uma das cores, basta digitar color/ background-color: var(--nome-da-cor) */
+
+:root {
+    --preto: #1d1d1d;
+    --cinza: #45525b;
+    --cinza-escuro: #6a6c72;
+    --cinza-medio: #a8bbc6;
+    --cinza-claro: #f5f6fa;
+    --branco: #ffffff;
+    --laranja: #f47e20;
+    --laranja-claro: #f6b057;
+    --verde: #8dc63f;
+}

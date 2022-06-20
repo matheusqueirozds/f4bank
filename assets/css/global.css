@@ -1,0 +1,64 @@
+/* ========================= REMOVER ESPAÇAMENTOS ========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========================= ALINHA TODAS AS DIVS COM A CLASSE CONTAINER AO CENTRO DA TELA ========================= */
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+/* ========================= ADAPTAR IMAGENS À TELA ========================= */
+img {
+    max-width: 100%;
+}
+
+/* ========================= LINKS ========================= */
+a {
+    text-decoration: none;
+}
+
+/* ========================= BOTÕES ========================= */
+button {
+    cursor: pointer;
+}
+
+.botao {
+    display: block;
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-family: var(--font1);
+    font-size: 0.813rem;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+
+/* ========================= BARRA DE ROLAGEM PERSONALIZADA ========================= */
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--laranja-claro);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--branco);
+}

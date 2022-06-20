@@ -1,0 +1,44 @@
+main {
+    margin-top: 236px;
+    margin-bottom: 158px;
+}
+
+main .titulo {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-family: var(--font2);
+    font-weight: normal;
+    width: 660px;
+}
+
+main .texto-laranja {
+    font-weight: bold;
+}
+
+main .fonte-alternativa {
+    font-family: var(--font3);
+    font-size: 4rem;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .imagem-main {
+    width: 456px;
+}
+
+main .botao {
+    margin-top: 40px;
+    max-width: 480px;
+}
+
+main .botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
+}
+
+/* ========================= RESPONSIVIDADE ========================= */

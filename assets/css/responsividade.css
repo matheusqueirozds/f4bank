@@ -1,0 +1,788 @@
+/* ========================= 1280px  ========================= */
+@media screen and (max-width: 1280px) {
+    /*Verificar redução da 1ª quebra*/
+    .container,
+    main .container,
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        max-width: 960px;
+    }
+
+    /* ========================= MAIN ========================= */
+    main {
+        margin-top: 216px;
+    }
+
+    main .titulo {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        width: 560px;
+    }
+
+    main .fonte-alternativa {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 400px;
+    }
+
+    main .botao {
+        max-width: 360px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+    section .global-account {
+        gap: 40px;
+    }
+
+    .global-account .content {
+        width: 400px;
+    }
+
+    .global-account .subtitulo {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-bottom: 8px;
+    }
+
+    .global-account .subtitulo-descricao {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        width: 376px;
+    }
+
+    .global-account .botao {
+        width: 150px;
+    }
+
+    /* ========================= SECTION 2 ========================= */
+    .super-app .content {
+        width: 376px;
+    }
+
+    .super-app .container {
+        flex-direction: row;
+        gap: 92px;
+    }
+
+    .super-app .subtitulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .super-app .item {
+        width: 218px;
+    }
+}
+
+/* ========================= 992px  ========================= */
+@media screen and (max-width: 1022px) {
+    .container,
+    main .container,
+    section .container {
+        max-width: 720px;
+    }
+
+    /* ========================= MAIN ========================= */
+    main {
+        margin-top: 186px;
+    }
+
+    main .titulo {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+        width: 390px;
+    }
+
+    main .fonte-alternativa {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 326px;
+    }
+
+    main .botao {
+        max-width: 360px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+    .global-account .content {
+        width: 336px;
+    }
+
+    .global-account .subtitulo {
+        font-size: 3rem;
+        line-height: 3.75rem;
+        margin-bottom: 16px;
+    }
+
+    .global-account .botao {
+        width: 150px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    .super-app .container {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .super-app .content {
+        width: 100%;
+    }
+
+    .super-app .subtitulo {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        width: 100%;
+    }
+
+    .super-app .btn-desktop {
+        display: none;
+    }
+
+    .super-app .btn-responsivo {
+        display: block;
+        margin-top: 0;
+    }
+
+    .super-app .lista {
+        width: 100%;
+    }
+
+    .super-app .item {
+        width: 262px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    .colaboradores .titulo {
+        font-size: 1.5rem;
+    }
+
+    .colaboradores .destaque {
+        font-size: 5rem;
+    }
+
+    .colaboradores .galeria {
+        align-items: flex-start;
+        padding: 40px 0;
+        font-size: 1rem;
+        width: 720px;
+    }
+
+    .colaboradores .botao {
+        margin-top: 0;
+    }
+}
+
+/* ========================= 800px  ========================= */
+@media screen and (max-width: 770px) {
+    .container,
+    main .container,
+    section .container {
+        width: 500px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    /* ========================= MAIN ========================= */
+    main {
+        margin-top: 126px;
+        margin-bottom: 80px;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 456px;
+    }
+
+    main .titulo,
+    section .titulo,
+    .global-account .content,
+    .global-account .subtitulo,
+    .global-account .subtitulo-descricao,
+    .super-app .content,
+    .super-app .subtitulo,
+    .super-app .lista {
+        width: 467px;
+    }
+
+    main .botao {
+        max-width: 467px;
+    }
+
+    .global-account .botao,
+    .super-app .botao,
+    .colaboradores .botao {
+        width: 467px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+
+    .global-account .subtitulo {
+        font-size: 3rem;
+        line-height: 3.75rem;
+        margin-bottom: 16px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    section .colaboradores {
+        flex-direction: column;
+        padding: 80px 0;
+        width: 467px;
+    }
+
+    .colaboradores .titulo {
+        font-size: 1rem;
+    }
+
+    .colaboradores .destaque {
+        font-size: 3.5rem;
+    }
+
+    .colaboradores .galeria {
+        padding: 0;
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+    .programador {
+        gap: 10px;
+    }
+
+    .colaboradores .imagem {
+        width: 100px;
+    }
+
+    .colaboradores .botao {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    main {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .global-account,
+    .super-app,
+    .colaboradores-bg {
+        margin-top: 60px;
+    }
+
+    .container,
+    main .container,
+    section .container {
+        width: 375px;
+        padding: 0 20px;
+    }
+
+    /* ========================= MAIN ========================= */
+
+    main .titulo,
+    section .titulo,
+    .global-account .content,
+    .global-account .subtitulo,
+    .global-account .subtitulo-descricao,
+    .super-app .content,
+    .super-app .subtitulo,
+    .super-app .lista {
+        width: 100%;
+    }
+
+    main .botao {
+        max-width: 375px;
+    }
+
+    .global-account .botao,
+    .super-app .botao,
+    .colaboradores .botao {
+        width: 335px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+
+    .global-account .subtitulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    section .colaboradores {
+        padding: 40px 20px;
+        width: 100%;
+    }
+
+    .colaboradores .imagem {
+        margin: 0 10px;
+    }
+}
+
+/* ========================= SECTIONS 2, 4, 6 e 7 - Douglas ========================= */
+@media screen and (min-width: 1600px) {
+    /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte > .botao-passaporte {
+        font-size: 100%;
+        max-height: 10%;
+        max-width: 15%;
+    }
+
+    /* ========================= SECTION 4 - Douglas ========================= */
+
+    #conta > img#image1 {
+        margin: 0 auto 0 0;
+    }
+
+    #conta > #texto {
+        margin: 0 0 0 auto;
+        max-width: 25%;
+    }
+
+    #texto > h1 {
+        margin: 0 0 0 auto;
+    }
+
+    /* ========================= SECTION 6 - Douglas ========================= */
+    section#conta-kids,
+    section#cashback {
+        /* Section 6 */
+        margin: 1% auto;
+    }
+
+    #conta-kids > img#celular-cartao {
+        margin-left: 10%;
+        max-height: 500px;
+        max-width: 400px;
+        border-radius: 20px;
+    }
+
+    #conta-kids > img#familia1,
+    img#familia2 {
+        display: none;
+    }
+
+    .text-conta-kids {
+        align-items: flex-start;
+    }
+
+    .text-conta-kids > h3 {
+        color: var(--cinza-claro);
+        font-size: 3em;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > h4 {
+        font-size: 200%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > p {
+        font-size: 120%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > p > span {
+        font-weight: bold;
+    }
+
+    /* ========================= SECTION 7 - Douglas ========================= */
+
+    section#cashback > img {
+        border-radius: 20px;
+        height: 50%;
+    }
+
+    section#cashback > div > h1 {
+        color: gray;
+        font-size: 3em;
+        margin-left: 16%;
+    }
+
+    section#cashback > div > h2 {
+        font-size: 200%;
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    section#cashback > div > p {
+        margin: 0 0 10% 16%;
+        font-size: 120%;
+        width: 40%;
+    }
+
+    section#cashback > div > a {
+        padding: 1% 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte > h1 {
+        font-size: 4em;
+        margin-bottom: 1%;
+    }
+
+    #passaporte > span {
+        color: white;
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+    #passaporte > a#button {
+        max-height: 10px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    /* ========================= SECTION 4 - Douglas ========================= */
+    section#conta > img#image1,
+    div#texto {
+        display: none;
+    }
+
+    section#conta {
+        height: 40em;
+    }
+
+    section#conta > img#image2 {
+        display: flex;
+        height: 50%;
+    }
+
+    section#conta > div#cartao-daniel {
+        display: block;
+        margin-left: 8%;
+        max-height: 500px;
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    section#conta > div#cartao-daniel > img {
+        display: flex;
+        margin: 0 0 10% 5%;
+        height: 250px;
+    }
+
+    section#conta > div#cartao-daniel > h1 {
+        font-size: 2em;
+        margin: 0 auto;
+    }
+
+    .texto > p {
+        font-size: 0.8em;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    /* ========================= SECTION 4 - Douglas ========================= */
+    section#conta > div#cartao-daniel {
+        display: none;
+    }
+
+    section#conta > img#image2 {
+        display: none;
+    }
+
+    section#conta {
+        height: 43em;
+        margin: 5% auto;
+    }
+
+    section#conta > div#cartao-matheus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    section#conta > div#cartao-matheus > img#image3 {
+        display: flex;
+        max-height: 400px;
+        max-width: 250px;
+        margin: 3% auto;
+    }
+
+    section#conta > div#cartao-matheus > img#cartao-math {
+        display: flex;
+        max-height: 200px;
+        max-width: 350px;
+        margin: 0 auto 5% auto;
+    }
+
+    section#conta > div#cartao-matheus > p {
+        margin: auto 5%;
+    }
+
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback > img {
+        height: 50%;
+    }
+
+    section#cashback > div > h1 {
+        color: gray;
+        font-size: 2.5em;
+        margin-left: 10%;
+    }
+
+    section#cashback > div > h2 {
+        font-size: 1.2em;
+        margin: 0 0 5% 15%;
+    }
+
+    section#cashback > div > p {
+        margin: 0 0 10% 15%;
+        font-size: 1em;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 30em;
+    }
+
+    #passaporte > h1 {
+        font-size: 3.5em;
+    }
+
+    #passaporte > span {
+        color: white;
+        font-size: 2.5em;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    /* ========================= SECTION 6 - Douglas ========================= */
+    #conta-kids > img#celular-cartao {
+        display: none;
+    }
+
+    .text-conta-kids {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text-conta-kids > h3 {
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+
+    .text-conta-kids > h4 {
+        font-size: 150%;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .text-conta-kids > p {
+        font-size: 80%;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .text-conta-kids > a > img {
+        margin: 10%;
+        height: 60px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 20em;
+    }
+
+    #passaporte > h1 {
+        font-size: 2em;
+    }
+
+    #passaporte > span {
+        font-size: 1.5em;
+        margin-bottom: 3%;
+    }
+
+    #passaporte > .botao-passaporte {
+        height: 6%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback {
+        height: 30em;
+    }
+
+    section#cashback > img {
+        height: 50%;
+        margin: 0 5% 0 0;
+    }
+
+    section#cashback > div > h1 {
+        font-size: 2em;
+        margin-left: 5%;
+    }
+
+    section#cashback > div > h2 {
+        font-size: 1em;
+        margin: 0 0 5% 10%;
+    }
+
+    section#cashback > div > p {
+        margin: 0 0 10% 10%;
+        font-size: 100%;
+    }
+
+    section#cashback > div > a {
+        padding: 1% 5%;
+        margin-left: 30%;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* ========================= SECTION 6 - Douglas ========================= */
+    #conta-kids > img#familia2 {
+        display: none;
+    }
+
+    #conta-kids > img#familia1 {
+        display: flex;
+    }
+
+    #conta-kids {
+        flex-direction: column;
+    }
+
+    .text-conta-kids {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .text-conta-kids > h3 {
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+
+    .text-conta-kids > h4 {
+        font-size: 100%;
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .text-conta-kids > p {
+        font-size: 60%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .text-conta-kids > a > img {
+        margin: 30% auto 0 auto;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 15em;
+    }
+
+    #passaporte > span {
+        font-size: 1em;
+        margin-bottom: 3%;
+    }
+
+    #passaporte > .botao-passaporte {
+        height: 8%;
+    }
+
+    /* ========================= SECTION 4 - Douglas ========================= */
+    section#conta > div#cartao-matheus {
+        display: none;
+    }
+
+    section#conta {
+        height: 40em;
+        margin: 10% auto;
+    }
+
+    section#conta > div#cartao-douglas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#conta > div#cartao-douglas > img#cartao-doug {
+        height: 150px;
+        margin: 2% auto;
+    }
+
+    section#conta > div#cartao-douglas > p {
+        font-size: 12px;
+        width: 90%;
+        margin: 2% auto;
+    }
+
+    section#conta > div#cartao-douglas > img#image4 {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        width: 40%;
+        margin: 10% auto 2% auto;
+    }
+
+    section#conta > div#cartao-douglas > h1 {
+        margin: 10% auto 2% auto;
+    }
+
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback {
+        height: 25em;
+    }
+
+    section#cashback > img {
+        height: 40%;
+        margin: 0 5% 0 0;
+    }
+
+    section#cashback > div > h1 {
+        font-size: 1em;
+        margin-left: 5%;
+    }
+
+    section#cashback > div > h2 {
+        font-size: 0.8em;
+        margin: 0 0 5% 10%;
+    }
+
+    section#cashback > div > p {
+        margin: 10% 0 40% 10%;
+        font-size: 50%;
+    }
+
+    section#cashback > div > a {
+        font-size: 60%;
+    }
+}

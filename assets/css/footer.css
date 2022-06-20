@@ -1,0 +1,197 @@
+/* ========================= FOOTER ========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    padding: 20px 12px;
+}
+
+/*  ===============Inicio Estilazação -informacoes-gerais  ============*/
+
+.informacoes-gerais{
+    padding: 20px 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    font-family: var(--font2);
+    border-bottom: 1px solid;
+}
+
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.titulo{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.icones-redes-sociais{
+    display: flex;
+    gap: 15px;
+}
+
+.icone-rede-social{
+    width: 24px;
+}
+
+.informacoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.informacoes-links a{
+    color: var(--preto);
+}
+
+.informacoes-links a:hover{
+    color: var(--laranja);
+}
+
+
+.informacoes-contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato{
+    font-size: 15px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+/*  ===============Fim Estilazação - Section Informacoes-gerais  ============*/
+.informacoes-secundarias{
+
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font2);
+    font-size: 12px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.informacoes-secundarias a:hover{
+    color: var(--laranja);
+    /* cursor: pointer; */
+}
+.informacoes-secundarias-links{
+    display: flex;
+    gap: 15px;
+}
+.informacoes-secundarias-links a{
+    color: var(--preto);   
+}
+
+.informacoes-secundarias-links a:hover{
+    color: var(--laranja);   
+}
+
+.copy{
+    margin-top:10px;
+}
+
+
+.informacoes-secundarias-localizao{
+    display: flex;
+    font-family: var(--font2);
+    font-size: 12px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.informacoes-secundarias-localizao a{
+    color: var(--preto);
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+
+@media screen and (max-width:980px) {
+    .informacoes-gerais{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9rem;
+        border-bottom: none;
+    }
+
+    .icones-redes-sociais{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 14px;
+    }
+
+    .contato{
+        font-size: 10px;
+    }
+    
+    .titulo-mobile {
+        display: none;
+    }
+
+    .informacoes-links{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .informacoes_redesociais_mobile{
+        margin-left: 12px;
+        font-family: var(--font2);
+        gap: 20px;
+        border-bottom: 1px solid;
+    }
+
+    .icone-rede-social-mobile{
+        margin-top: 10px;
+        width: 30px;
+    }
+
+    .informacoes-secundarias{
+        display: flex;
+        gap: 10px;
+    }
+
+    .informacoes-secundarias-links{
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 9px;
+    }
+
+    .politica-dados{
+        font-size: 9px;
+    }
+
+    .copy{
+        font-size: 10px;
+    }
+    .informacoes-secundarias-localizao{
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 9px;
+    }
+
+
+}
+
+@media screen and (min-width:980px){
+    .informacoes_redesociais_mobile{
+        display: none;
+    }
+
+
+
+}
