@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h1 align="left">Projeto de Fixação - Landing Page</h1>
+<h1 align="left">F4 Bank</h1>
 
 ###
 
